@@ -10,9 +10,8 @@ workflows:
         # тут мають лежати APPSTORE_ISSUER_ID, APPSTORE_KEY_ID, APPSTORE_P8, APPLE_EMAIL
         - appstore-connect
       vars:
-        IOS_BUNDLE_ID: com.manohaproj.app
-        APP_NAME: Perfect Amora
-
+        IOS_BUNDLE_ID: com.trokozproj.app
+        APP_NAME: Honey Dones
     scripts:
       - name: Print working dir & contents
         script: |
